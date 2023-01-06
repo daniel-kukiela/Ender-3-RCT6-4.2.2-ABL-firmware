@@ -3,11 +3,13 @@ module.exports = {
     active: true,
     meta: {
         stable_name: "ender_3_rct6_4.2.2-{{marlin_version}}-auto_level_5x5-{{uid}}",
+        nightly_name: "ender_3_rct6_4.2.2-{{current_date}}-auto_level_5x5-{{uid}}"
     },
     based_on: {
         repo: "https://github.com/MarlinFirmware/Configurations/",
         path: "/config/examples/Creality/Ender-3/CrealityV422/",
         stable_branch: "release-{{marlin_version}}",
+        nightly_branch: "bugfix-2.1.x"
     },
     configuration: {
         enable: [
