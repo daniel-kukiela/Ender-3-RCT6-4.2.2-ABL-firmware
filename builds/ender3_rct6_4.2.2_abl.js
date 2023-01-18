@@ -1,5 +1,6 @@
 module.exports = {
     board_env: "STM32F103RC_creality",
+    only: "stable",
     active: true,
     meta: {
         stable_name: "ender_3_rct6_4.2.2-{{marlin_version}}-auto_level_5x5-{{uid}}",
